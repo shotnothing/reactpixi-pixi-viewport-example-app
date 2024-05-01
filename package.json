@@ -1,0 +1,46 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pixi/app": "^7.1.1",
+    "@pixi/constants": "^7.1.1",
+    "@pixi/core": "^7.1.1",
+    "@pixi/display": "^7.1.1",
+    "@pixi/extensions": "^7.1.1",
+    "@pixi/graphics": "^7.1.1",
+    "@pixi/math": "^7.1.1",
+    "@pixi/mesh": "^7.1.1",
+    "@pixi/mesh-extras": "^7.1.1",
+    "@pixi/particle-container": "^7.1.1",
+    "@pixi/sprite": "^7.1.1",
+    "@pixi/sprite-animated": "^7.1.1",
+    "@pixi/sprite-tiling": "^7.1.1",
+    "@pixi/text": "^7.1.1",
+    "@pixi/text-bitmap": "^7.1.1",
+    "@pixi/ticker": "^7.1.1",
+    "pixi-viewport": "5.0.1",
+
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}

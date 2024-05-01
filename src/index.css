@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+canvas {
+  background: #efefef;
+  box-shadow: 3px 3px 0 #ccc;
+}
+
+.buttons-group > button {
+  margin: 0 0.25rem;
+  font-family: system-ui;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  background: #efefef;
+  box-shadow: 3px 3px 0 #ccc;
+}
