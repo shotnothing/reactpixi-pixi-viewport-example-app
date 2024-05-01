@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# pixi/react and pixi-viewport example app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Hi there!
 
-Currently, two official plugins are available:
+If you've ever tried using "pixi/react" and "pixi-viewport" together, you might have encountered some challenges. I certainly did! That's why I created this example app to help you navigate through the integration process more smoothly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
 
-## Expanding the ESLint configuration
+## What is this?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This example app demonstrates how to effectively use Pixi.js with React while incorporating the "pixi-viewport" library. It provides a simple setup and usage demonstration to get you started on the right foot. The example is based off the "Custom Components">"Example Viewport" from ReactPixis documentation.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+*And yes I totally generated this with readme using ChatGPT 😅*
